@@ -1,0 +1,13 @@
+[smartgit]
+https://www.syntevo.com/smartgit/
+
+
+[runner-manual]
+https://docs.gitlab.com/runner/install/windows.html
+
+[runner-download]
+https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-windows-amd64.exe
+
+
+[Nuget]
+https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
