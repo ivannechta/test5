@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    class Program
+    public class Program
     {
+        public int sum(int a, int b) {
+            return a + b;
+        }
+
         static void Main(string[] args)
         {
             Console.Write("dfgdgdsff");
-	    Console.ReadKey();
-
+	        Console.ReadKey();
         }
     }
 }
