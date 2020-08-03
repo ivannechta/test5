@@ -13,8 +13,10 @@ build_job:
   artifacts:
     paths:
       - 'ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe'
+
+      
  
-  Test:
+test_job:
   stage: test
   script:
   - echo "Starting tests ..."
