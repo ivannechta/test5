@@ -14,6 +14,7 @@ build_job:
     paths:
       - 'ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe'
  
+  Test:
   stage: test
   script:
   - echo "Starting tests ..."
