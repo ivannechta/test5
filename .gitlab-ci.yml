@@ -13,11 +13,20 @@ build_job:
   artifacts:
     paths:
       - 'ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe'
+
+      
  
+test_job:
   stage: test
   script:
   - echo "Starting tests ..."
   - cd "ConsoleApp2\UnitTestProject1\bin\Debug"
+<<<<<<< HEAD
   - '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" UnitTestProject1.dll'
   dependencies:
   - build
+=======
+  - "dir"
+  - '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow" UnitTestProject1.dll'
+#
+>>>>>>> gitlab/master
