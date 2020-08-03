@@ -12,6 +12,8 @@ namespace UnitTestProject1
         {
             ConsoleApp2.Program p = new ConsoleApp2.Program();
             Assert.AreEqual(p.sum(2,5),7);
+            Assert.AreEqual(p.sum(12, 5), 17);
+
         }
     }
 }
