@@ -21,5 +21,6 @@ test_job:
   script:
   - echo "Starting tests ..."
   - cd "ConsoleApp2\UnitTestProject1\bin\Debug"
+  - "dir"
   - '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow" UnitTestProject1.dll'
 #
